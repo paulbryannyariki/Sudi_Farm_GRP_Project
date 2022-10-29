@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contacts</title>
+	<!--<link rel="stylesheet" href="style.css" type="text/css">-->
+	<style type="text/css">
+		body{
+
+			margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: #CDB966;
+  font-size: 15px;
+  text-align: center;
+		}
+
+			#contact{
+  display: grid;
+  height: 100vh;
+   grid-template-columns: 1.5fr 1.5fr 1.5fr;
+      grid-template-rows:1.2fr 1.2fr 1.2fr;
+
+      grid-template-areas:
+      "info info info"
+      "GE customers sus"
+      "footer footer footer";
+      grid-gap: 0.2rem;
+}
+#info
+{
+	grid-area: info;
+}
+#GE
+{
+	grid-area: GE;
+}
+#customers
+{
+	grid-area: customers;
+}
+#footer
+{
+	display: grid;
+	grid-area: footer;
+	justify-content: center;
+	justify-items: center;
+}
+
+
+
+/* Footer Section */
+
+u{
+
+text-decoration-color: blue;
+	color: black;
+
+}
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Header -->
+
+	<header class="flex-container">
+		<img src="Sudi Farm Limited.png" />
+		<!--<nav>
+			<span><a href="home.html">Home</a></span>
+			<span><a href="services.html">Services</a></span>
+			<span><a href="aboutus.html">About Us</a></span>
+			<span><a href="contactus.html" target="_blank">Contact Us</a></span>
+		</nav>
+	</header> -->
+
+<div id="contact">
+
+      <div id="info">
+      <h1>CONTACT US</h1>
+      <p>looking for more information</p>
+      <p>contact us and we will be happy to answer your questions</p>
+    </div>
+    <div id="GE">
+      <h2>GENERAL ENQUIRIES</h2>
+      <P>Muranga P.O.BOX 04360</P>
+      <u>mail@sudi.co.ke</u>
+      <p>Sudi Head Office: 254 725 502595/ 254 722 568879</p>
+      <p>Nandi Office: 254 722 279 432879</P></div>
+
+      <div id="customers">
+        <h2>CUSTOMERS</h2>
+        <p>Dennis Onkari Sudi</p>
+          <p>Executive Head, Agriculture </p>
+      <p><u>dsudi@sudi.co.ke</u></p></div>
+      <div id="sus">
+        <h2>SUSTAINABILITY</h2>
+    	<p>DR Wendy Kariuki </p>
+  		<p>General Manager, Human Resources</p>
+  		<p><u>wkariuki@sudi.co.ke</u></p></div>
+
+    <footer>
+      <h3>WHISTLEBLOWING</h3>
+      <p>Please report any cases of wrongdoing, misconduct, bribery and fraud by our employees, agents and or contactors. </p>
+      <p><u>confidential@sudi.co.ke</u>
+    </footer>
+  </div>
+</body>
+</html>
